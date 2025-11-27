@@ -4,7 +4,7 @@ read_libs slow_vdd1v0_basicCells.lib
 read_hdl -sv RTL_TOP.sv
 read_hdl -sv RTL_ALU.sv
 elaborate
-read_sdc ../Constraints/RTL_Cons.sdc
+read_sdc ../Constraints/Constraints.sdc
 set_db syn_generic_effort medium
 set_db syn_map_effort medium
 set_db syn_opt_effort medium
@@ -21,4 +21,5 @@ report_gates -power > reports/report_gates.rpt
 write_hdl > outputs/test_netlist.v
 write_sdc > outputs/test_sdc.sdc
 write_sdf -timescale ns -nonegchecks -recrem split -edges check_edge -setuphold split > outputs/delays.sdf
+
 gui_show
