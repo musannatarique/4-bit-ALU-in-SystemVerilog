@@ -17,6 +17,10 @@ A 4-bit Arithmetic Logic Unit supporting 16 operations with status flags (Zero, 
 - `RTL_ALU_TB.sv` — Testbench for simulation
 - `Genus_Script.tcl` — Synthesis script
 
+## Library (Cadence GPDK45)
+- fast_vdd1v0_basicCells.lib
+- slow_vdd1v0_basicCells.lib
+
 ## Simulation
 Run using any SystemVerilog simulator Cadence Xcelium
 
@@ -27,4 +31,4 @@ xrun -sv RTL_ALU.sv RTL_ALU_TB.sv
 --> For Synthesis
 ```bash
 genus -f Genus_Script.tcl
-
+```
