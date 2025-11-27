@@ -1,5 +1,5 @@
-# 4-bit ALU in SystemVerilog
-A 4-bit Arithmetic Logic Unit supporting 4 operations.
+# 4-bit ALU in SystemVerilog 
+
 A 4-bit Arithmetic Logic Unit supporting 16 operations with status flags (Zero, Positive, Negative, etc).
 
 ## Features
