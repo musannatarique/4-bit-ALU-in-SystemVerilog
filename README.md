@@ -18,6 +18,7 @@ A 4-bit Arithmetic Logic Unit supporting 16 operations with status flags (Zero, 
 
 ## Simulation
 Run using any SystemVerilog simulator Cadence Xcelium
-
+--> For Wavefrom
 ```bash
-xrun -sv RTL_ALU.sv RTL_ALU_TB.sv  -- For Wavefrom
+xrun -sv RTL_ALU.sv RTL_ALU_TB.sv
+
