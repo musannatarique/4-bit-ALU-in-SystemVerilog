@@ -15,6 +15,7 @@ A 4-bit Arithmetic Logic Unit supporting 16 operations with status flags (Zero, 
 ## Files
 - `RTL_ALU.sv` — Main ALU design
 - `RTL_ALU_TB.sv` — Testbench for simulation
+- `Genus_Script.tcl` — Synthesis script
 
 ## Simulation
 Run using any SystemVerilog simulator Cadence Xcelium
