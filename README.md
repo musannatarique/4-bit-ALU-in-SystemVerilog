@@ -22,4 +22,8 @@ Run using any SystemVerilog simulator Cadence Xcelium
 --> For Wavefrom
 ```bash
 xrun -sv RTL_ALU.sv RTL_ALU_TB.sv
+```
+--> For Synthesis
+```bash
+genus -f Genus_Script.tcl
 
